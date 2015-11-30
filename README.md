@@ -15,7 +15,7 @@ Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.
 - [What's New in Grafana 2.1](http://docs.grafana.org/guides/whats-new-in-v2-1/)
 - [What's New in Grafana 2.5](http://docs.grafana.org/guides/whats-new-in-v2-5/)
 
-## Features
+## Features i18n
 ### Graphite Target Editor
 - Graphite target expression parser
 - Feature rich query composer
