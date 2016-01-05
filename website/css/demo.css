@@ -1,0 +1,83 @@
+.zTreePage a {color:#3C6E31;text-decoration:none;}
+.zTreePage a:hover {background-color:#8DBAF9;color:white;text-decoration:none;}
+.zTreePage input.radio {margin: 0 2px 0 8px;}
+.zTreePage input.radio.first {margin-left:0;}
+.zTreePage input.empty {color: lightgray;}
+.zTreePage code {color: #2f332a;}
+.zTreePage .highlight_red {color:#A60000;}
+.zTreePage .highlight_green {color:#A7F43D;}
+.zTreePage li {list-style: circle;font-size: 12px;}
+.zTreePage li.title {list-style: none;}
+.zTreePage ul.list {margin-left: 17px;}
+
+.zTreePage ul.ztree {margin-top: 10px;border: none;background: #fff;overflow-y:scroll;overflow-x:auto;}
+.zTreePage ul.log {border: 1px solid #617775;background: #f0f6e4;width:300px;height:170px;overflow: hidden;}
+.zTreePage ul.log.small {height:45px;}
+.zTreePage ul.log li {color: #666666;list-style: none;padding-left: 10px;}
+.zTreePage ul.log li.dark {background-color: #E3E3E3;}
+
+/* ruler */
+.zTreePage div.ruler {height:20px; width:220px; background-color:#f0f6e4;border: 1px solid #333; margin-bottom: 5px; cursor: pointer}
+.zTreePage div.ruler div.cursor {height:20px; width:30px; background-color:#3C6E31; color:white; text-align: right; padding-right: 5px; cursor: pointer}
+
+.zTreePage div#rMenu ul{
+	padding-left:0;
+	margin-bottom:0;
+}
+.zTreePage div#rMenu {position:absolute; visibility:hidden; top:0; background-color: #fff;text-align: left;padding: 2px;border:1px solid #8DBAF9;}
+.zTreePage div#rMenu ul li{
+	margin: 1px 0;
+	padding: 0 5px;
+	cursor: pointer;
+	list-style: none outside none;
+	background-color: #fff;
+}
+.zTreePage div#rMenu ul li:hover{
+	background-color: #8DBAF9;
+	color:#fff;
+}
+.zTreePage div#rMenu ul hr{
+	margin-top:5px;
+	margin-bottom:5px;
+	width:90%;
+	border-top:1px solid #aaa;
+}
+.zTreePage div#rMenu .addNode{
+	background-image:url("./zTreeStyle/img/zTreeStandard.png");
+	background-position:-145px 0;
+	display:inline-block;
+	width:15px;
+	line-height: 17px;
+	margin-right:2px;
+}
+.zTreePage div#rMenu .deleteNode{
+	background-image:url("./zTreeStyle/img/zTreeStandard.png");
+	background-position:-111px -64px;
+	display:inline-block;
+	width:17px;
+	line-height: 17px;
+}
+.zTreePage div#rMenu .checkNode{
+	background-image:url("./zTreeStyle/img/zTreeStandard.png");
+	background-position:-13px 0;
+	display:inline-block;
+	width:15px;
+	line-height: 13px;
+	margin-right:2px;
+}
+.zTreePage div#rMenu .uncheckNode{
+	background-image:url("./zTreeStyle/img/zTreeStandard.png");
+	background-position:1px 0;
+	display:inline-block;
+	width:15px;
+	line-height: 13px;
+	margin-right:2px;
+}
+.zTreePage div#rMenu .reloadTree{
+	background-image:url("./zTreeStyle/img/zTreeStandard.png");
+	background-position:-128px 0;
+	display:inline-block;
+	width:15px;
+	line-height: 17px;
+	margin-right:2px;
+}

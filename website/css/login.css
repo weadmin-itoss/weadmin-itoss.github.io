@@ -1,0 +1,152 @@
+.btn-u{
+  border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 6px 13px;
+    position: relative;
+    background: #72c02c;
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.reg-block-header {
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #eee;
+}
+
+.loginPage{
+    background: #555;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.reg-block {
+    width: 380px;
+    padding: 30px;
+    margin: 150px auto;
+    background: #fff;
+    border-top: solid 5px #2e6da4;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+
+.form-control {
+    box-shadow: none;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*Registration and Login Page v2
+------------------------------------*/
+.logo{
+  text-align: center;
+  width: 40%;
+}
+.logoTitle{
+  font-size: 30px;
+}
+
+.reg-block h2,
+.reg-block p,
+.reg-block p a {
+	color: #777;
+}
+
+.reg-block-header h2 {
+	font-size: 28px;
+}
+
+.reg-block p a {
+	text-decoration: underline;
+}
+.reg-block p a:hover {
+	text-decoration: none;
+}
+
+/*Forms*/
+.reg-block .input-group-addon {
+	color: #bbb;
+	background: none;
+	min-width: 40px;
+}
+
+.reg-block .form-control:focus {
+   box-shadow: none;
+   border-color: #999;
+}
+
+.reg-block .checkbox {
+	color: #555;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+/*Reg Header*/
+.reg-block-header {
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	border-bottom: solid 1px #eee;
+}
+
+.reg-block-header h2 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.reg-block-header p {
+	text-align: center;
+}
+
+/*For Mobile Devices*/
+@media (max-width: 500px) {
+	.reg-block {
+		width: 300px;
+		margin: 60px auto;
+	}
+}
+
+.btn-login{
+  width: 270px;
+}
