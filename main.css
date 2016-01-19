@@ -31,6 +31,10 @@ body {
 .homeBasic{
   background-color: #FFFFFF;
 }
+.homeImg img{
+  width: 50%;
+  height: 100%;
+}
 .homeHead{
   margin: 0 0 0 5px;
 }
@@ -68,9 +72,10 @@ body {
 .homeSvg div{
   text-align: center;
 }
-.homeSvg img{
-  width: 100px;
-
+.homeSvg{
+  /*margin-left: 40px;*/
+  /*text-align: center;*/
+  width: 130px !important;
 }
 
 .btn-buy{
@@ -258,7 +263,7 @@ a {
 #sidebar .vline {
     border: 1px solid #d3d2d2;
     position: absolute;
-    top: 56px;
+    top: 78px;
     bottom: 58px;
     //z-index: 100;
 }
